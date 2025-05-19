@@ -28,11 +28,11 @@
   </style>
 </head>
 <body>
-  <button onclick="openApp()">アプリを開く</button>
-
+  <button onclick="openApp()">アプリを開く1</button>
+  <button onclick="location.href='https://ios-universal-link.pages.dev/open'">アプリを開く2</button>
   <script>
     function openApp() {
-      window.location.href = "/open";  // ✅ 相対パスでOK
+      window.location.href = "/open";
     }
   </script>
 </body>
