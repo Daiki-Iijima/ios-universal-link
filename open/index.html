@@ -2,13 +2,15 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>アプリに移動中...</title>
+  <title>アプリにリダイレクト中...</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script>
-    window.location.href = "https://ios-universal-link.pages.dev/open";
-  </script>
 </head>
 <body>
   <p>アプリを開いています...</p>
+  <a id="deeplink" href="https://ios-universal-link.pages.dev/open">アプリを開く</a>
+
+  <script>
+    document.getElementById('deeplink').click();
+  </script>
 </body>
 </html>
