@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "C6BAJ38C74.com.djima.universal-link-test",
+        "paths": [ "/open" ]
+      }
+    ]
+  }
+}
