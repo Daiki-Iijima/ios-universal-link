@@ -2,39 +2,13 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>アプリを開く</title>
+  <title>アプリに移動中...</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: sans-serif;
-      background-color: #f5f5f5;
-    }
-    button {
-      padding: 1em 2em;
-      font-size: 1.2em;
-      background-color: #007aff;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #005ecb;
-    }
-  </style>
+  <script>
+    window.location.href = "https://ios-universal-link.pages.dev/open";
+  </script>
 </head>
 <body>
-  <button onclick="openApp()">アプリを開く</button>
-
-  <script>
-    function openApp() {
-      // Universal Link によってアプリを開く
-      window.location.href = "https://ios-universal-link.pages.dev/open";
-    }
-  </script>
+  <p>アプリを開いています...</p>
 </body>
 </html>
